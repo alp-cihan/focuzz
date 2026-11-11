@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.DS_Store
+
+# Raw recordings: too large for GitHub and contain people's faces
+data/raw_videos/
+
+# Model weights: Ultralytics downloads yolov8n.pt on first run
+*.pt
